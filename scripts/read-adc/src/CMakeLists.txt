@@ -12,6 +12,7 @@ set(CMAKE_CXX_FLAGS "-std=gnu++1y")
 add_library(rpi ${SOURCES})
 target_include_directories(rpi PUBLIC ".")
 target_include_directories(rpi PUBLIC "../fmtlib")
+target_include_directories(rpi PUBLIC "../fmtlib/include")
 #target_compile_features(rpi PUBLIC "cxx_std_17")
 target_link_libraries(rpi)
 
