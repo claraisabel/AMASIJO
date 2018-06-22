@@ -1,0 +1,9 @@
+[submodule "scripts/read-adc/googletest"]
+	path = scripts/read-adc/googletest
+	url = https://github.com/google/googletest
+[submodule "scripts/read-adc/fmtlib"]
+	path = scripts/read-adc/fmtlib
+	url = https://github.com/fmtlib/fmt
+[submodule "scripts/read-adc/bcm2835"]
+	path = scripts/read-adc/bcm2835
+	url = https://github.com/FranciscoMoya/bcm2835.git
