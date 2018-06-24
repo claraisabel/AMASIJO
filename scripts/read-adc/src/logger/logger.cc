@@ -20,4 +20,4 @@ int main() {
 	f.flush();
 	std::this_thread::sleep_for(5s);
     }
-};
+}
