@@ -15,6 +15,5 @@ while true; do
 	echo $VBAT >> "$LOG"
 	sync
 	echo "Read $VBAT"
-	lifepo4wered-cli get vbat >> "$LOG"
-	sleep 10
+	sleep  2m
 done
